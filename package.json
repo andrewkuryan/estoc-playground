@@ -2,7 +2,7 @@
   "name": "estoc-playground",
   "version": "0.0.0",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start"
   },
@@ -13,6 +13,7 @@
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "prettier": "^3.5.3",
+    "sass": "^1.88.0",
     "typescript": "^5.8.3"
   },
   "dependencies": {

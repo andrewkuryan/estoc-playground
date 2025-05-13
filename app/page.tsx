@@ -1,9 +1,11 @@
+import './page.scss';
+
 export default function Home() {
   return (
-    <div>
-      <main>
-        <h1>Hello World</h1>
-      </main>
+    <div className="page-root">
+      <textarea id="input" placeholder="Enter code here" />
+      <textarea id="result" placeholder="Output" readOnly={true} />
+      <button>Run</button>
     </div>
   );
 }
