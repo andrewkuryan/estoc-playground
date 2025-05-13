@@ -1,0 +1,11 @@
+.idea
+
+/node_modules
+
+/.next/
+/out/
+/build
+
+.vercel
+
+next-env.d.ts
