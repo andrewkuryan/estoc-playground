@@ -1,5 +1,17 @@
 @use 'sass:color';
 
+html {
+  font-family: system-ui;
+}
+
+html,
+body,
+#__next {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
 .page-root {
   $primary-color: #d47b3a;
   $secondary-color: #624541;
